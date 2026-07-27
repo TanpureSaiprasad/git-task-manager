@@ -26,7 +26,11 @@ switch (command) {
         clearTasks();
         break;
     default:
+<<<<<<< HEAD
         console.log('\n--- 🦄 Unicorn Task Manager 🦄 ---');
+=======
+        console.log('\n--- 🚀 Rocket Task Manager 🚀 ---');
+>>>>>>> style-rocket
         console.log('Usage:');
         console.log('  node src/index.js add "<task name>"    - Add a new task');
         console.log('  node src/index.js list                 - List all tasks');
