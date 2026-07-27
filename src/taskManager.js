@@ -63,9 +63,17 @@ function deleteTask(id) {
     console.log(`Deleted task with ID: ${id}`);
 }
 
+// Deletes all tasks in the list
+function clearTasks() {
+    writeTasks([]);
+    console.log('All tasks cleared successfully!');
+}
+
+
 module.exports = {
     addTask,
     listTasks,
     completeTask,
-    deleteTask
+    deleteTask,
+    clearTasks
 };
